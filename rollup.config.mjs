@@ -16,7 +16,7 @@ export default [
   {
     input: 'src/index.js',
     output: {
-      name: 'mlMatrix',
+      name: 'matrixhub',
       file: 'matrix.umd.js',
       format: 'umd',
       exports: 'named',

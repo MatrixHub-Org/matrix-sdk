@@ -373,7 +373,7 @@ describe('utility methods', () => {
   });
 
   it('mmul strassen on empty matrices', () => {
-    // https://github.com/mljs/matrix/issues/114
+    // https://github.com/MatrixHub-Org/matrix-sdk/issues/114
     // while the mathematically correct result is 0x0, we assert a 2x2 padded result that the current implementation produces
     // (this call is actually just delegated to standard multiplication in mmul())
     expect(

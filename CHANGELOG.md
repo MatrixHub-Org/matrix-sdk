@@ -1,315 +1,315 @@
 # Changelog
 
-## [6.15.0](https://github.com/mljs/matrix/compare/v6.14.0...v6.15.0) (2026-08-05)
+## [6.15.0](https://github.com/MatrixHub-Org/matrix-sdk/compare/v6.14.0...v6.15.0) (2026-08-05)
 
 
 ### Features
 
-* add applyAlongAxis to reduce a matrix along a chosen dimension ([#214](https://github.com/mljs/matrix/issues/214)) ([49a6a1a](https://github.com/mljs/matrix/commit/49a6a1afb5c59f3b0293505174b092568fa5ba6d))
-* add concat to join two matrices along a chosen dimension ([#215](https://github.com/mljs/matrix/issues/215)) ([e625603](https://github.com/mljs/matrix/commit/e6256039750e9828f6026773ca1623f773dafcf1))
+* add applyAlongAxis to reduce a matrix along a chosen dimension ([#214](https://github.com/MatrixHub-Org/matrix-sdk/issues/214)) ([49a6a1a](https://github.com/MatrixHub-Org/matrix-sdk/commit/49a6a1afb5c59f3b0293505174b092568fa5ba6d))
+* add concat to join two matrices along a chosen dimension ([#215](https://github.com/MatrixHub-Org/matrix-sdk/issues/215)) ([e625603](https://github.com/MatrixHub-Org/matrix-sdk/commit/e6256039750e9828f6026773ca1623f773dafcf1))
 
 
 ### Bug Fixes
 
-* use relative cutoffs for singular values and residuals ([#213](https://github.com/mljs/matrix/issues/213)) ([cdb74bb](https://github.com/mljs/matrix/commit/cdb74bb193d0e1336908bc08d54aa93a79cf5837))
+* use relative cutoffs for singular values and residuals ([#213](https://github.com/MatrixHub-Org/matrix-sdk/issues/213)) ([cdb74bb](https://github.com/MatrixHub-Org/matrix-sdk/commit/cdb74bb193d0e1336908bc08d54aa93a79cf5837))
 
-## [6.14.0](https://github.com/mljs/matrix/compare/v6.13.0...v6.14.0) (2026-07-13)
-
-
-### Features
-
-* add transposeMultiply (thisᵀ · other) without materializing the transpose ([#211](https://github.com/mljs/matrix/issues/211)) ([f0f21a7](https://github.com/mljs/matrix/commit/f0f21a737303c513569c025e3baee9a4248e4e2b))
-
-## [6.13.0](https://github.com/mljs/matrix/compare/v6.12.2...v6.13.0) (2026-06-23)
+## [6.14.0](https://github.com/MatrixHub-Org/matrix-sdk/compare/v6.13.0...v6.14.0) (2026-07-13)
 
 
 ### Features
 
-* add Matrix.gram() for the symmetric XᵀX product ([#208](https://github.com/mljs/matrix/issues/208)) ([436258b](https://github.com/mljs/matrix/commit/436258bcb5aa122fde5eda8425d595d38a37f9b4))
-* add Matrix.mmulByTranspose() ([#207](https://github.com/mljs/matrix/issues/207)) ([9b3835a](https://github.com/mljs/matrix/commit/9b3835ab1a82fe63070a0fee0fdad252f22fc81f))
+* add transposeMultiply (thisᵀ · other) without materializing the transpose ([#211](https://github.com/MatrixHub-Org/matrix-sdk/issues/211)) ([f0f21a7](https://github.com/MatrixHub-Org/matrix-sdk/commit/f0f21a737303c513569c025e3baee9a4248e4e2b))
+
+## [6.13.0](https://github.com/MatrixHub-Org/matrix-sdk/compare/v6.12.2...v6.13.0) (2026-06-23)
+
+
+### Features
+
+* add Matrix.gram() for the symmetric XᵀX product ([#208](https://github.com/MatrixHub-Org/matrix-sdk/issues/208)) ([436258b](https://github.com/MatrixHub-Org/matrix-sdk/commit/436258bcb5aa122fde5eda8425d595d38a37f9b4))
+* add Matrix.mmulByTranspose() ([#207](https://github.com/MatrixHub-Org/matrix-sdk/issues/207)) ([9b3835a](https://github.com/MatrixHub-Org/matrix-sdk/commit/9b3835ab1a82fe63070a0fee0fdad252f22fc81f))
 
 
 ### Performance Improvements
 
-* speed up SVD (~4.7x) and symmetric EVD (~1.7x) via transposed internal storage ([#167](https://github.com/mljs/matrix/issues/167)) ([22548f2](https://github.com/mljs/matrix/commit/22548f25c918dad29922ed24ee91dcf8c4f51565))
+* speed up SVD (~4.7x) and symmetric EVD (~1.7x) via transposed internal storage ([#167](https://github.com/MatrixHub-Org/matrix-sdk/issues/167)) ([22548f2](https://github.com/MatrixHub-Org/matrix-sdk/commit/22548f25c918dad29922ed24ee91dcf8c4f51565))
 
-## [6.12.2](https://github.com/mljs/matrix/compare/v6.12.1...v6.12.2) (2026-04-15)
-
-
-### Bug Fixes
-
-* bundle `array` deps ([#204](https://github.com/mljs/matrix/issues/204)) ([94360fe](https://github.com/mljs/matrix/commit/94360fee498de0aae5e292825290aa63ad586974))
-
-## [6.12.1](https://github.com/mljs/matrix/compare/v6.12.0...v6.12.1) (2025-03-11)
+## [6.12.2](https://github.com/MatrixHub-Org/matrix-sdk/compare/v6.12.1...v6.12.2) (2026-04-15)
 
 
 ### Bug Fixes
 
-* mpow(2**n) for integer n ([#197](https://github.com/mljs/matrix/issues/197)) ([f91b210](https://github.com/mljs/matrix/commit/f91b2105761c9f28bfc53c15427fc737e8ea86fd))
+* bundle `array` deps ([#204](https://github.com/MatrixHub-Org/matrix-sdk/issues/204)) ([94360fe](https://github.com/MatrixHub-Org/matrix-sdk/commit/94360fee498de0aae5e292825290aa63ad586974))
 
-## [6.12.0](https://github.com/mljs/matrix/compare/v6.11.1...v6.12.0) (2024-10-15)
+## [6.12.1](https://github.com/MatrixHub-Org/matrix-sdk/compare/v6.12.0...v6.12.1) (2025-03-11)
+
+
+### Bug Fixes
+
+* mpow(2**n) for integer n ([#197](https://github.com/MatrixHub-Org/matrix-sdk/issues/197)) ([f91b210](https://github.com/MatrixHub-Org/matrix-sdk/commit/f91b2105761c9f28bfc53c15427fc737e8ea86fd))
+
+## [6.12.0](https://github.com/MatrixHub-Org/matrix-sdk/compare/v6.11.1...v6.12.0) (2024-10-15)
 
 
 ### Features
 
-* add `mpow` to compute matrix power using exponentiation by squaring ([#193](https://github.com/mljs/matrix/issues/193)) ([dbfd8e4](https://github.com/mljs/matrix/commit/dbfd8e4c39e75a5d344c1058f94f0fc21dbd8713))
+* add `mpow` to compute matrix power using exponentiation by squaring ([#193](https://github.com/MatrixHub-Org/matrix-sdk/issues/193)) ([dbfd8e4](https://github.com/MatrixHub-Org/matrix-sdk/commit/dbfd8e4c39e75a5d344c1058f94f0fc21dbd8713))
 
 
 ### Bug Fixes
 
-* **typings:** improve generator types ([#190](https://github.com/mljs/matrix/issues/190)) ([ee83c8b](https://github.com/mljs/matrix/commit/ee83c8be47179736e8fafad9be6ea4dca0eb3ec3))
+* **typings:** improve generator types ([#190](https://github.com/MatrixHub-Org/matrix-sdk/issues/190)) ([ee83c8b](https://github.com/MatrixHub-Org/matrix-sdk/commit/ee83c8be47179736e8fafad9be6ea4dca0eb3ec3))
 
-## [6.11.1](https://github.com/mljs/matrix/compare/v6.11.0...v6.11.1) (2024-06-10)
+## [6.11.1](https://github.com/MatrixHub-Org/matrix-sdk/compare/v6.11.0...v6.11.1) (2024-06-10)
 
 
 ### Bug Fixes
 
-* **DistanceMatrix:** fromCompact with an empty array ([637598e](https://github.com/mljs/matrix/commit/637598edb96d3066baef6d0241915898158f43d7))
+* **DistanceMatrix:** fromCompact with an empty array ([637598e](https://github.com/MatrixHub-Org/matrix-sdk/commit/637598edb96d3066baef6d0241915898158f43d7))
 
-## [6.11.0](https://github.com/mljs/matrix/compare/v6.10.8...v6.11.0) (2023-11-30)
+## [6.11.0](https://github.com/MatrixHub-Org/matrix-sdk/compare/v6.10.8...v6.11.0) (2023-11-30)
 
 
 ### Features
 
-* add Symmetric and Distance Matrix ([#178](https://github.com/mljs/matrix/issues/178)) ([cfe50db](https://github.com/mljs/matrix/commit/cfe50db84440d8be309057acd17a4d9e8bf42681))
+* add Symmetric and Distance Matrix ([#178](https://github.com/MatrixHub-Org/matrix-sdk/issues/178)) ([cfe50db](https://github.com/MatrixHub-Org/matrix-sdk/commit/cfe50db84440d8be309057acd17a4d9e8bf42681))
 
-## [6.10.8](https://github.com/mljs/matrix/compare/v6.10.7...v6.10.8) (2023-11-04)
-
-
-### Bug Fixes
-
-* make default import work in TS esModuleInterop ([#176](https://github.com/mljs/matrix/issues/176)) ([ac52cb0](https://github.com/mljs/matrix/commit/ac52cb05cafe3a0ceb06b547e09944f81d2592cc))
-
-## [6.10.7](https://github.com/mljs/matrix/compare/v6.10.6...v6.10.7) (2023-10-20)
+## [6.10.8](https://github.com/MatrixHub-Org/matrix-sdk/compare/v6.10.7...v6.10.8) (2023-11-04)
 
 
 ### Bug Fixes
 
-* disable esModule in CJS build ([#171](https://github.com/mljs/matrix/issues/171)) ([bc4ba15](https://github.com/mljs/matrix/commit/bc4ba151dcab5dc3c2cc0d4f1f326d541e44217f))
+* make default import work in TS esModuleInterop ([#176](https://github.com/MatrixHub-Org/matrix-sdk/issues/176)) ([ac52cb0](https://github.com/MatrixHub-Org/matrix-sdk/commit/ac52cb05cafe3a0ceb06b547e09944f81d2592cc))
 
-## [6.10.6](https://github.com/mljs/matrix/compare/v6.10.5...v6.10.6) (2023-10-17)
-
-
-### Bug Fixes
-
-* default export for ESM importers ([#168](https://github.com/mljs/matrix/issues/168)) ([dd8e729](https://github.com/mljs/matrix/commit/dd8e729c68454cc179f4542053e1e55c5de92c70))
-
-## [6.10.5](https://github.com/mljs/matrix/compare/v6.10.4...v6.10.5) (2023-09-24)
+## [6.10.7](https://github.com/MatrixHub-Org/matrix-sdk/compare/v6.10.6...v6.10.7) (2023-10-20)
 
 
 ### Bug Fixes
 
-* **types:** optional argument for `norm()` ([#165](https://github.com/mljs/matrix/issues/165)) ([8869e22](https://github.com/mljs/matrix/commit/8869e2250751843d693b4347286d03052f2a6806))
+* disable esModule in CJS build ([#171](https://github.com/MatrixHub-Org/matrix-sdk/issues/171)) ([bc4ba15](https://github.com/MatrixHub-Org/matrix-sdk/commit/bc4ba151dcab5dc3c2cc0d4f1f326d541e44217f))
+
+## [6.10.6](https://github.com/MatrixHub-Org/matrix-sdk/compare/v6.10.5...v6.10.6) (2023-10-17)
+
+
+### Bug Fixes
+
+* default export for ESM importers ([#168](https://github.com/MatrixHub-Org/matrix-sdk/issues/168)) ([dd8e729](https://github.com/MatrixHub-Org/matrix-sdk/commit/dd8e729c68454cc179f4542053e1e55c5de92c70))
+
+## [6.10.5](https://github.com/MatrixHub-Org/matrix-sdk/compare/v6.10.4...v6.10.5) (2023-09-24)
+
+
+### Bug Fixes
+
+* **types:** optional argument for `norm()` ([#165](https://github.com/MatrixHub-Org/matrix-sdk/issues/165)) ([8869e22](https://github.com/MatrixHub-Org/matrix-sdk/commit/8869e2250751843d693b4347286d03052f2a6806))
 
 
 ### Documentation
 
-* add DOI badge ([#159](https://github.com/mljs/matrix/issues/159)) ([2b98189](https://github.com/mljs/matrix/commit/2b98189295e297a6c3a48f76ca05ca0641d14e2b))
+* add DOI badge ([#159](https://github.com/MatrixHub-Org/matrix-sdk/issues/159)) ([2b98189](https://github.com/MatrixHub-Org/matrix-sdk/commit/2b98189295e297a6c3a48f76ca05ca0641d14e2b))
 
-## [6.10.4](https://github.com/mljs/matrix/compare/v6.10.3...v6.10.4) (2022-11-05)
-
-
-### Bug Fixes
-
-* improve inspect/toString number formatter ([#157](https://github.com/mljs/matrix/issues/157)) ([4ed872e](https://github.com/mljs/matrix/commit/4ed872e3fe747b1cb0a026b359b9d8e0672f6ea1))
-
-## [6.10.3](https://github.com/mljs/matrix/compare/v6.10.2...v6.10.3) (2022-11-04)
+## [6.10.4](https://github.com/MatrixHub-Org/matrix-sdk/compare/v6.10.3...v6.10.4) (2022-11-05)
 
 
 ### Bug Fixes
 
-* **typings:** mark get/set of AbstractMatrix as abstract ([#155](https://github.com/mljs/matrix/issues/155)) ([d07f5c6](https://github.com/mljs/matrix/commit/d07f5c622fbe204a861768c2e2c2b7fa39008e76))
+* improve inspect/toString number formatter ([#157](https://github.com/MatrixHub-Org/matrix-sdk/issues/157)) ([4ed872e](https://github.com/MatrixHub-Org/matrix-sdk/commit/4ed872e3fe747b1cb0a026b359b9d8e0672f6ea1))
 
-## [6.10.2](https://github.com/mljs/matrix/compare/v6.10.1...v6.10.2) (2022-06-29)
-
-
-### Bug Fixes
-
-* improve README documentation ([#151](https://github.com/mljs/matrix/issues/151)) ([bb1a8cb](https://github.com/mljs/matrix/commit/bb1a8cbd33b048d9f21e460030e4726e5aea4802))
-
-### [6.10.1](https://github.com/mljs/matrix/compare/v6.10.0...v6.10.1) (2022-05-31)
+## [6.10.3](https://github.com/MatrixHub-Org/matrix-sdk/compare/v6.10.2...v6.10.3) (2022-11-04)
 
 
 ### Bug Fixes
 
-* type check input array ([#149](https://github.com/mljs/matrix/issues/149)) ([d8ac6f7](https://github.com/mljs/matrix/commit/d8ac6f7545b423b1bc0055e66e7edc2829488113)), closes [#148](https://github.com/mljs/matrix/issues/148)
+* **typings:** mark get/set of AbstractMatrix as abstract ([#155](https://github.com/MatrixHub-Org/matrix-sdk/issues/155)) ([d07f5c6](https://github.com/MatrixHub-Org/matrix-sdk/commit/d07f5c622fbe204a861768c2e2c2b7fa39008e76))
 
-## [6.10.0](https://github.com/mljs/matrix/compare/v6.9.0...v6.10.0) (2022-04-19)
+## [6.10.2](https://github.com/MatrixHub-Org/matrix-sdk/compare/v6.10.1...v6.10.2) (2022-06-29)
+
+
+### Bug Fixes
+
+* improve README documentation ([#151](https://github.com/MatrixHub-Org/matrix-sdk/issues/151)) ([bb1a8cb](https://github.com/MatrixHub-Org/matrix-sdk/commit/bb1a8cbd33b048d9f21e460030e4726e5aea4802))
+
+### [6.10.1](https://github.com/MatrixHub-Org/matrix-sdk/compare/v6.10.0...v6.10.1) (2022-05-31)
+
+
+### Bug Fixes
+
+* type check input array ([#149](https://github.com/MatrixHub-Org/matrix-sdk/issues/149)) ([d8ac6f7](https://github.com/MatrixHub-Org/matrix-sdk/commit/d8ac6f7545b423b1bc0055e66e7edc2829488113)), closes [#148](https://github.com/MatrixHub-Org/matrix-sdk/issues/148)
+
+## [6.10.0](https://github.com/MatrixHub-Org/matrix-sdk/compare/v6.9.0...v6.10.0) (2022-04-19)
 
 
 ### Features
 
-* add min(by) and max(by) ([#144](https://github.com/mljs/matrix/issues/144)) ([6c7cdbe](https://github.com/mljs/matrix/commit/6c7cdbec64dc9ed55fadbba3442a2458002c4c82))
+* add min(by) and max(by) ([#144](https://github.com/MatrixHub-Org/matrix-sdk/issues/144)) ([6c7cdbe](https://github.com/MatrixHub-Org/matrix-sdk/commit/6c7cdbec64dc9ed55fadbba3442a2458002c4c82))
 
-## [6.9.0](https://github.com/mljs/matrix/compare/v6.8.2...v6.9.0) (2022-02-26)
-
-
-### Features
-
-* allow to pass any array in all APIs ([362d8a1](https://github.com/mljs/matrix/commit/362d8a153c5ecab765f88b5b01756565d39ad927))
-
-### [6.8.2](https://www.github.com/mljs/matrix/compare/v6.8.1...v6.8.2) (2021-11-12)
-
-
-### Bug Fixes
-
-* dummy commit to republish package ([9ae2abe](https://www.github.com/mljs/matrix/commit/9ae2abea0a3f20b2f7fa02866f6870e4609a2441))
-
-### [6.8.1](https://www.github.com/mljs/matrix/compare/v6.8.0...v6.8.1) (2021-11-04)
-
-
-### Bug Fixes
-
-* type definitions in NIPALS ([#129](https://www.github.com/mljs/matrix/issues/129)) ([2e1447d](https://www.github.com/mljs/matrix/commit/2e1447d75e3c2fe2450f474d15336f8ae2a26d5f))
-
-## [6.8.0](https://www.github.com/mljs/matrix/compare/v6.7.0...v6.8.0) (2021-04-23)
+## [6.9.0](https://github.com/MatrixHub-Org/matrix-sdk/compare/v6.8.2...v6.9.0) (2022-02-26)
 
 
 ### Features
 
-* add multi Y options to nipals ([#122](https://www.github.com/mljs/matrix/issues/122)) ([#123](https://www.github.com/mljs/matrix/issues/123)) ([c251328](https://www.github.com/mljs/matrix/commit/c2513281294f832b4d58b3734c6bc54b6261576d))
+* allow to pass any array in all APIs ([362d8a1](https://github.com/MatrixHub-Org/matrix-sdk/commit/362d8a153c5ecab765f88b5b01756565d39ad927))
 
-## [6.7.0](https://www.github.com/mljs/matrix/compare/v6.6.0...v6.7.0) (2021-03-12)
-
-
-### Features
-
-* add Kronecker sum ([#119](https://www.github.com/mljs/matrix/issues/119)) ([a600b2c](https://www.github.com/mljs/matrix/commit/a600b2cb00f86576620a187f158d52680f752d89))
-
-## [6.6.0](https://www.github.com/mljs/matrix/compare/v6.5.3...v6.6.0) (2021-01-04)
-
-
-### Features
-
-* add support for empty matrices ([#116](https://www.github.com/mljs/matrix/issues/116)) ([211de6e](https://www.github.com/mljs/matrix/commit/211de6e0880720033862f94a9629e48ae1787109))
-
-### [6.5.3](https://www.github.com/mljs/matrix/compare/v6.5.2...v6.5.3) (2020-10-11)
+### [6.8.2](https://github.com/MatrixHub-Org/matrix-sdk/compare/v6.8.1...v6.8.2) (2021-11-12)
 
 
 ### Bug Fixes
 
-* update dependencies and move documentation to gh-pages ([78e0724](https://www.github.com/mljs/matrix/commit/78e07240ae9f114c4876a7838e37d9cc95336620))
+* dummy commit to republish package ([9ae2abe](https://github.com/MatrixHub-Org/matrix-sdk/commit/9ae2abea0a3f20b2f7fa02866f6870e4609a2441))
 
-### [6.5.2](https://github.com/mljs/matrix/compare/v6.5.1...v6.5.2) (2020-10-09)
+### [6.8.1](https://github.com/MatrixHub-Org/matrix-sdk/compare/v6.8.0...v6.8.1) (2021-11-04)
 
 
 ### Bug Fixes
 
-* benchmark of transposeViewMul ([#106](https://github.com/mljs/matrix/issues/106)) ([6407086](https://github.com/mljs/matrix/commit/64070866dfcde5fe48fa70de443ddd804f67d998))
+* type definitions in NIPALS ([#129](https://github.com/MatrixHub-Org/matrix-sdk/issues/129)) ([2e1447d](https://github.com/MatrixHub-Org/matrix-sdk/commit/2e1447d75e3c2fe2450f474d15336f8ae2a26d5f))
+
+## [6.8.0](https://github.com/MatrixHub-Org/matrix-sdk/compare/v6.7.0...v6.8.0) (2021-04-23)
+
+
+### Features
+
+* add multi Y options to nipals ([#122](https://github.com/MatrixHub-Org/matrix-sdk/issues/122)) ([#123](https://github.com/MatrixHub-Org/matrix-sdk/issues/123)) ([c251328](https://github.com/MatrixHub-Org/matrix-sdk/commit/c2513281294f832b4d58b3734c6bc54b6261576d))
+
+## [6.7.0](https://github.com/MatrixHub-Org/matrix-sdk/compare/v6.6.0...v6.7.0) (2021-03-12)
+
+
+### Features
+
+* add Kronecker sum ([#119](https://github.com/MatrixHub-Org/matrix-sdk/issues/119)) ([a600b2c](https://github.com/MatrixHub-Org/matrix-sdk/commit/a600b2cb00f86576620a187f158d52680f752d89))
+
+## [6.6.0](https://github.com/MatrixHub-Org/matrix-sdk/compare/v6.5.3...v6.6.0) (2021-01-04)
+
+
+### Features
+
+* add support for empty matrices ([#116](https://github.com/MatrixHub-Org/matrix-sdk/issues/116)) ([211de6e](https://github.com/MatrixHub-Org/matrix-sdk/commit/211de6e0880720033862f94a9629e48ae1787109))
+
+### [6.5.3](https://github.com/MatrixHub-Org/matrix-sdk/compare/v6.5.2...v6.5.3) (2020-10-11)
+
+
+### Bug Fixes
+
+* update dependencies and move documentation to gh-pages ([78e0724](https://github.com/MatrixHub-Org/matrix-sdk/commit/78e07240ae9f114c4876a7838e37d9cc95336620))
+
+### [6.5.2](https://github.com/MatrixHub-Org/matrix-sdk/compare/v6.5.1...v6.5.2) (2020-10-09)
+
+
+### Bug Fixes
+
+* benchmark of transposeViewMul ([#106](https://github.com/MatrixHub-Org/matrix-sdk/issues/106)) ([6407086](https://github.com/MatrixHub-Org/matrix-sdk/commit/64070866dfcde5fe48fa70de443ddd804f67d998))
 
 
 ### Reverts
 
-* Revert "chore: migrate release to GitHub actions (#107)" ([21ba23a](https://github.com/mljs/matrix/commit/21ba23ac133fba057769d843d09614fad09edfc9)), closes [#107](https://github.com/mljs/matrix/issues/107)
+* Revert "chore: migrate release to GitHub actions (#107)" ([21ba23a](https://github.com/MatrixHub-Org/matrix-sdk/commit/21ba23ac133fba057769d843d09614fad09edfc9)), closes [#107](https://github.com/MatrixHub-Org/matrix-sdk/issues/107)
 
-## [6.5.1](https://github.com/mljs/matrix/compare/v6.5.0...v6.5.1) (2020-07-28)
-
-
-### Bug Fixes
-
-* **types:** add missing removeColumn and removeRow types ([8010f31](https://github.com/mljs/matrix/commit/8010f3182684589558e8497d9b9230dc4725d848))
-* **types:** add types for addColum and addRow ([#105](https://github.com/mljs/matrix/issues/105)) ([b372b80](https://github.com/mljs/matrix/commit/b372b8083b24c8ff4ce55b3a5c0d2d67e16e0e8e))
-
-
-
-# [6.5.0](https://github.com/mljs/matrix/compare/v6.4.1...v6.5.0) (2020-05-03)
+## [6.5.1](https://github.com/MatrixHub-Org/matrix-sdk/compare/v6.5.0...v6.5.1) (2020-07-28)
 
 
 ### Bug Fixes
 
-* do not change input matrices in correlation and covariance functions ([#103](https://github.com/mljs/matrix/issues/103)) ([32e3537](https://github.com/mljs/matrix/commit/32e3537aae0ed4d8cf20c6230a4d411f944b1bcb))
-
-
-### Features
-
-* add options to toString method ([67b007c](https://github.com/mljs/matrix/commit/67b007cd0e3fb80131e3cdb434868fe3c503ef89))
-* add toString method ([dcd5ab2](https://github.com/mljs/matrix/commit/dcd5ab28a8190e3602335bca40d7d34b7afbb15e))
+* **types:** add missing removeColumn and removeRow types ([8010f31](https://github.com/MatrixHub-Org/matrix-sdk/commit/8010f3182684589558e8497d9b9230dc4725d848))
+* **types:** add types for addColum and addRow ([#105](https://github.com/MatrixHub-Org/matrix-sdk/issues/105)) ([b372b80](https://github.com/MatrixHub-Org/matrix-sdk/commit/b372b8083b24c8ff4ce55b3a5c0d2d67e16e0e8e))
 
 
 
-## [6.4.1](https://github.com/mljs/matrix/compare/v6.4.0...v6.4.1) (2019-09-30)
+# [6.5.0](https://github.com/MatrixHub-Org/matrix-sdk/compare/v6.4.1...v6.5.0) (2020-05-03)
 
 
 ### Bug Fixes
 
-* correctly ready elements in QR#orthogonalMatrix ([2f527a3](https://github.com/mljs/matrix/commit/2f527a3))
-
-
-
-# [6.4.0](https://github.com/mljs/matrix/compare/v6.3.0...v6.4.0) (2019-08-16)
+* do not change input matrices in correlation and covariance functions ([#103](https://github.com/MatrixHub-Org/matrix-sdk/issues/103)) ([32e3537](https://github.com/MatrixHub-Org/matrix-sdk/commit/32e3537aae0ed4d8cf20c6230a4d411f944b1bcb))
 
 
 ### Features
 
-* add CholeskyDecomposition.isPositiveDefinite method ([#94](https://github.com/mljs/matrix/issues/94)) ([6bb33a9](https://github.com/mljs/matrix/commit/6bb33a9))
+* add options to toString method ([67b007c](https://github.com/MatrixHub-Org/matrix-sdk/commit/67b007cd0e3fb80131e3cdb434868fe3c503ef89))
+* add toString method ([dcd5ab2](https://github.com/MatrixHub-Org/matrix-sdk/commit/dcd5ab28a8190e3602335bca40d7d34b7afbb15e))
 
 
 
-# [6.3.0](https://github.com/mljs/matrix/compare/v6.2.0...v6.3.0) (2019-08-16)
-
-
-### Features
-
-* add UMD build ([#92](https://github.com/mljs/matrix/issues/92)) ([3b82b07](https://github.com/mljs/matrix/commit/3b82b07))
-
-
-
-# [6.2.0](https://github.com/mljs/matrix/compare/v6.1.2...v6.2.0) (2019-07-20)
-
-
-### Features
-
-* add NIPALS loop for factorization ([#91](https://github.com/mljs/matrix/issues/91)) ([043c8b6](https://github.com/mljs/matrix/commit/043c8b6))
-
-
-
-## [6.1.2](https://github.com/mljs/matrix/compare/v6.1.1...v6.1.2) (2019-06-29)
+## [6.4.1](https://github.com/MatrixHub-Org/matrix-sdk/compare/v6.4.0...v6.4.1) (2019-09-30)
 
 
 ### Bug Fixes
 
-* use more Float64Array in decompositions ([0bd8f1b](https://github.com/mljs/matrix/commit/0bd8f1b))
-* **Matrix:** use Float64Array to improve performance ([9dfe983](https://github.com/mljs/matrix/commit/9dfe983))
-* **SVD:** use Float64Array to avoid deopt ([85acd13](https://github.com/mljs/matrix/commit/85acd13))
+* correctly ready elements in QR#orthogonalMatrix ([2f527a3](https://github.com/MatrixHub-Org/matrix-sdk/commit/2f527a3))
 
 
 
-## [6.1.1](https://github.com/mljs/matrix/compare/v6.1.0...v6.1.1) (2019-06-28)
-
-
-
-# [6.1.0](https://github.com/mljs/matrix/compare/v6.0.0...v6.1.0) (2019-06-22)
+# [6.4.0](https://github.com/MatrixHub-Org/matrix-sdk/compare/v6.3.0...v6.4.0) (2019-08-16)
 
 
 ### Features
 
-* add echelonForm method ([eac0588](https://github.com/mljs/matrix/commit/eac0588))
-* add reducedEchelonForm method ([f32a8aa](https://github.com/mljs/matrix/commit/f32a8aa))
-* add statistical operations ([43fc4ef](https://github.com/mljs/matrix/commit/43fc4ef))
+* add CholeskyDecomposition.isPositiveDefinite method ([#94](https://github.com/MatrixHub-Org/matrix-sdk/issues/94)) ([6bb33a9](https://github.com/MatrixHub-Org/matrix-sdk/commit/6bb33a9))
 
 
 
-# [6.0.0](https://github.com/mljs/matrix/compare/v6.0.0-6...v6.0.0) (2019-04-25)
+# [6.3.0](https://github.com/MatrixHub-Org/matrix-sdk/compare/v6.2.0...v6.3.0) (2019-08-16)
+
+
+### Features
+
+* add UMD build ([#92](https://github.com/MatrixHub-Org/matrix-sdk/issues/92)) ([3b82b07](https://github.com/MatrixHub-Org/matrix-sdk/commit/3b82b07))
 
 
 
-# [6.0.0-6](https://github.com/mljs/matrix/compare/v6.0.0-5...v6.0.0-6) (2019-04-25)
+# [6.2.0](https://github.com/MatrixHub-Org/matrix-sdk/compare/v6.1.2...v6.2.0) (2019-07-20)
+
+
+### Features
+
+* add NIPALS loop for factorization ([#91](https://github.com/MatrixHub-Org/matrix-sdk/issues/91)) ([043c8b6](https://github.com/MatrixHub-Org/matrix-sdk/commit/043c8b6))
+
+
+
+## [6.1.2](https://github.com/MatrixHub-Org/matrix-sdk/compare/v6.1.1...v6.1.2) (2019-06-29)
 
 
 ### Bug Fixes
 
-* add linearDependencies to TS definitions ([22c4f60](https://github.com/mljs/matrix/commit/22c4f60))
+* use more Float64Array in decompositions ([0bd8f1b](https://github.com/MatrixHub-Org/matrix-sdk/commit/0bd8f1b))
+* **Matrix:** use Float64Array to improve performance ([9dfe983](https://github.com/MatrixHub-Org/matrix-sdk/commit/9dfe983))
+* **SVD:** use Float64Array to avoid deopt ([85acd13](https://github.com/MatrixHub-Org/matrix-sdk/commit/85acd13))
+
+
+
+## [6.1.1](https://github.com/MatrixHub-Org/matrix-sdk/compare/v6.1.0...v6.1.1) (2019-06-28)
+
+
+
+# [6.1.0](https://github.com/MatrixHub-Org/matrix-sdk/compare/v6.0.0...v6.1.0) (2019-06-22)
+
+
+### Features
+
+* add echelonForm method ([eac0588](https://github.com/MatrixHub-Org/matrix-sdk/commit/eac0588))
+* add reducedEchelonForm method ([f32a8aa](https://github.com/MatrixHub-Org/matrix-sdk/commit/f32a8aa))
+* add statistical operations ([43fc4ef](https://github.com/MatrixHub-Org/matrix-sdk/commit/43fc4ef))
+
+
+
+# [6.0.0](https://github.com/MatrixHub-Org/matrix-sdk/compare/v6.0.0-6...v6.0.0) (2019-04-25)
+
+
+
+# [6.0.0-6](https://github.com/MatrixHub-Org/matrix-sdk/compare/v6.0.0-5...v6.0.0-6) (2019-04-25)
+
+
+### Bug Fixes
+
+* add linearDependencies to TS definitions ([22c4f60](https://github.com/MatrixHub-Org/matrix-sdk/commit/22c4f60))
 
 
 ### Code Refactoring
 
-* rework a lot of things ([1b3cb03](https://github.com/mljs/matrix/commit/1b3cb03))
+* rework a lot of things ([1b3cb03](https://github.com/MatrixHub-Org/matrix-sdk/commit/1b3cb03))
 
 
 ### Features
 
-* add a custom Node.js inspect function ([cb51169](https://github.com/mljs/matrix/commit/cb51169))
-* rename reverse methods to split ([def2977](https://github.com/mljs/matrix/commit/def2977))
+* add a custom Node.js inspect function ([cb51169](https://github.com/MatrixHub-Org/matrix-sdk/commit/cb51169))
+* rename reverse methods to split ([def2977](https://github.com/MatrixHub-Org/matrix-sdk/commit/def2977))
 
 
 ### BREAKING CHANGES
@@ -323,12 +323,12 @@
 
 
 
-# [6.0.0-5](https://github.com/mljs/matrix/compare/v6.0.0-4...v6.0.0-5) (2019-04-18)
+# [6.0.0-5](https://github.com/MatrixHub-Org/matrix-sdk/compare/v6.0.0-4...v6.0.0-5) (2019-04-18)
 
 
 ### Code Refactoring
 
-* remove configurable super class and circular dependencies ([dd35ec8](https://github.com/mljs/matrix/commit/dd35ec8))
+* remove configurable super class and circular dependencies ([dd35ec8](https://github.com/MatrixHub-Org/matrix-sdk/commit/dd35ec8))
 
 
 ### BREAKING CHANGES
@@ -342,41 +342,41 @@
 
 
 
-# [6.0.0-4](https://github.com/mljs/matrix/compare/v6.0.0-3...v6.0.0-4) (2019-04-18)
+# [6.0.0-4](https://github.com/MatrixHub-Org/matrix-sdk/compare/v6.0.0-3...v6.0.0-4) (2019-04-18)
 
 
 ### Features
 
-* implement reverseRows and reverseColumns methods ([77e5ed7](https://github.com/mljs/matrix/commit/77e5ed7))
+* implement reverseRows and reverseColumns methods ([77e5ed7](https://github.com/MatrixHub-Org/matrix-sdk/commit/77e5ed7))
 
 
 
-# [6.0.0-3](https://github.com/mljs/matrix/compare/v6.0.0-2...v6.0.0-3) (2019-04-18)
+# [6.0.0-3](https://github.com/MatrixHub-Org/matrix-sdk/compare/v6.0.0-2...v6.0.0-3) (2019-04-18)
 
 
 
-# [6.0.0-2](https://github.com/mljs/matrix/compare/v6.0.0-1...v6.0.0-2) (2019-04-18)
+# [6.0.0-2](https://github.com/MatrixHub-Org/matrix-sdk/compare/v6.0.0-1...v6.0.0-2) (2019-04-18)
 
 
 ### Features
 
-* make JSON.stringify always return a 2D array from any matrix ([021115b](https://github.com/mljs/matrix/commit/021115b))
+* make JSON.stringify always return a 2D array from any matrix ([021115b](https://github.com/MatrixHub-Org/matrix-sdk/commit/021115b))
 
 
 
-# [6.0.0-1](https://github.com/mljs/matrix/compare/v6.0.0-0...v6.0.0-1) (2019-04-18)
+# [6.0.0-1](https://github.com/MatrixHub-Org/matrix-sdk/compare/v6.0.0-0...v6.0.0-1) (2019-04-18)
 
 
 ### Code Refactoring
 
-* make sum by row or column return an array ([dbe7c99](https://github.com/mljs/matrix/commit/dbe7c99))
+* make sum by row or column return an array ([dbe7c99](https://github.com/MatrixHub-Org/matrix-sdk/commit/dbe7c99))
 
 
 ### Features
 
-* add entropy method ([63b95d1](https://github.com/mljs/matrix/commit/63b95d1))
-* add mean by dimension and product methods ([6b57aae](https://github.com/mljs/matrix/commit/6b57aae))
-* add variance and standardDeviation methods ([f42f1b6](https://github.com/mljs/matrix/commit/f42f1b6))
+* add entropy method ([63b95d1](https://github.com/MatrixHub-Org/matrix-sdk/commit/63b95d1))
+* add mean by dimension and product methods ([6b57aae](https://github.com/MatrixHub-Org/matrix-sdk/commit/6b57aae))
+* add variance and standardDeviation methods ([f42f1b6](https://github.com/MatrixHub-Org/matrix-sdk/commit/f42f1b6))
 
 
 ### BREAKING CHANGES
@@ -385,17 +385,17 @@
 
 
 
-# [6.0.0-0](https://github.com/mljs/matrix/compare/v5.3.0...v6.0.0-0) (2019-04-18)
+# [6.0.0-0](https://github.com/MatrixHub-Org/matrix-sdk/compare/v5.3.0...v6.0.0-0) (2019-04-18)
 
 
 ### chore
 
-* remove support for Node 6 ([42e4fde](https://github.com/mljs/matrix/commit/42e4fde))
+* remove support for Node 6 ([42e4fde](https://github.com/MatrixHub-Org/matrix-sdk/commit/42e4fde))
 
 
 ### Code Refactoring
 
-* stop extending Array ([1837678](https://github.com/mljs/matrix/commit/1837678))
+* stop extending Array ([1837678](https://github.com/MatrixHub-Org/matrix-sdk/commit/1837678))
 
 
 ### BREAKING CHANGES
@@ -409,84 +409,84 @@
 
 
 
-# [5.3.0](https://github.com/mljs/matrix/compare/v5.2.1...v5.3.0) (2019-03-23)
+# [5.3.0](https://github.com/MatrixHub-Org/matrix-sdk/compare/v5.2.1...v5.3.0) (2019-03-23)
 
 
 ### Bug Fixes
 
-* add isEchelonForm and isReducedEchelonForm to typings ([690edd1](https://github.com/mljs/matrix/commit/690edd1))
-* correct matrix.d.ts file. ([#86](https://github.com/mljs/matrix/issues/86)) ([ebb273c](https://github.com/mljs/matrix/commit/ebb273c))
+* add isEchelonForm and isReducedEchelonForm to typings ([690edd1](https://github.com/MatrixHub-Org/matrix-sdk/commit/690edd1))
+* correct matrix.d.ts file. ([#86](https://github.com/MatrixHub-Org/matrix-sdk/issues/86)) ([ebb273c](https://github.com/MatrixHub-Org/matrix-sdk/commit/ebb273c))
 
 
 ### Features
 
-* add isEchelonForm and isReducedEchelonForm ([#84](https://github.com/mljs/matrix/issues/84)) ([dee2a94](https://github.com/mljs/matrix/commit/dee2a94))
+* add isEchelonForm and isReducedEchelonForm ([#84](https://github.com/MatrixHub-Org/matrix-sdk/issues/84)) ([dee2a94](https://github.com/MatrixHub-Org/matrix-sdk/commit/dee2a94))
 
 
 
-## [5.2.1](https://github.com/mljs/matrix/compare/v5.2.0...v5.2.1) (2019-01-07)
-
-
-### Bug Fixes
-
-* correct matrix.d.ts to follow TypeScript 3 ([#81](https://github.com/mljs/matrix/issues/81)) ([99329fd](https://github.com/mljs/matrix/commit/99329fd))
-
-
-
-# [5.2.0](https://github.com/mljs/matrix/compare/v5.1.1...v5.2.0) (2018-09-25)
+## [5.2.1](https://github.com/MatrixHub-Org/matrix-sdk/compare/v5.2.0...v5.2.1) (2019-01-07)
 
 
 ### Bug Fixes
 
-* complete type definitions ([ca63059](https://github.com/mljs/matrix/commit/ca63059))
+* correct matrix.d.ts to follow TypeScript 3 ([#81](https://github.com/MatrixHub-Org/matrix-sdk/issues/81)) ([99329fd](https://github.com/MatrixHub-Org/matrix-sdk/commit/99329fd))
+
+
+
+# [5.2.0](https://github.com/MatrixHub-Org/matrix-sdk/compare/v5.1.1...v5.2.0) (2018-09-25)
+
+
+### Bug Fixes
+
+* complete type definitions ([ca63059](https://github.com/MatrixHub-Org/matrix-sdk/commit/ca63059))
 
 
 ### Features
 
-* create index.d.ts ([#74](https://github.com/mljs/matrix/issues/74)) ([905c987](https://github.com/mljs/matrix/commit/905c987))
+* create index.d.ts ([#74](https://github.com/MatrixHub-Org/matrix-sdk/issues/74)) ([905c987](https://github.com/MatrixHub-Org/matrix-sdk/commit/905c987))
 
 
 
-## [5.1.1](https://github.com/mljs/matrix/compare/v5.1.0...v5.1.1) (2018-05-11)
+## [5.1.1](https://github.com/MatrixHub-Org/matrix-sdk/compare/v5.1.0...v5.1.1) (2018-05-11)
 
 
 ### Bug Fixes
 
-* prevent infinite loop ([f684d90](https://github.com/mljs/matrix/commit/f684d90))
+* prevent infinite loop ([f684d90](https://github.com/MatrixHub-Org/matrix-sdk/commit/f684d90))
 
 
 
-# [5.1.0](https://github.com/mljs/matrix/compare/v5.0.1...v5.1.0) (2018-05-04)
+# [5.1.0](https://github.com/MatrixHub-Org/matrix-sdk/compare/v5.0.1...v5.1.0) (2018-05-04)
 
 
 ### Features
 
-* add linearDependencies method ([88ee3df](https://github.com/mljs/matrix/commit/88ee3df))
+* add linearDependencies method ([88ee3df](https://github.com/MatrixHub-Org/matrix-sdk/commit/88ee3df))
 
 
 ### Performance Improvements
 
-* add transposeViewMul benchmark ([0d24ea9](https://github.com/mljs/matrix/commit/0d24ea9))
+* add transposeViewMul benchmark ([0d24ea9](https://github.com/MatrixHub-Org/matrix-sdk/commit/0d24ea9))
 
 
 
-## [5.0.1](https://github.com/mljs/matrix/compare/v5.0.0...v5.0.1) (2017-07-28)
+## [5.0.1](https://github.com/MatrixHub-Org/matrix-sdk/compare/v5.0.0...v5.0.1) (2017-07-28)
 
 
 ### Bug Fixes
 
-* Add test case ([4b72211](https://github.com/mljs/matrix/commit/4b72211))
-* bug with SVD ([f615aa3](https://github.com/mljs/matrix/commit/f615aa3))
-* rollup didn't understood .. ([3af231d](https://github.com/mljs/matrix/commit/3af231d))
+* Add test case ([4b72211](https://github.com/MatrixHub-Org/matrix-sdk/commit/4b72211))
+* bug with SVD ([f615aa3](https://github.com/MatrixHub-Org/matrix-sdk/commit/f615aa3))
+* rollup didn't understood .. ([3af231d](https://github.com/MatrixHub-Org/matrix-sdk/commit/3af231d))
 
 
 
-# [5.0.0](https://github.com/mljs/matrix/compare/v4.0.0...v5.0.0) (2017-07-21)
+# [5.0.0](https://github.com/MatrixHub-Org/matrix-sdk/compare/v4.0.0...v5.0.0) (2017-07-21)
 
 
 ### Code Refactoring
 
-* change decompositions to classes ([00c18e8](https://github.com/mljs/matrix/commit/00c18e8))
+* change decompositions to classes ([00c18e8](https://github.com/MatrixHub-Org/matrix-sdk/commit/00c18e8))
 
 
 ### BREAKING CHANGES
@@ -495,19 +495,19 @@
 
 
 
-# [4.0.0](https://github.com/mljs/matrix/compare/v3.0.0...v4.0.0) (2017-07-19)
+# [4.0.0](https://github.com/MatrixHub-Org/matrix-sdk/compare/v3.0.0...v4.0.0) (2017-07-19)
 
 
 ### Code Refactoring
 
-* remove dependency on ml-array-utils ([1e7119d](https://github.com/mljs/matrix/commit/1e7119d))
+* remove dependency on ml-array-utils ([1e7119d](https://github.com/MatrixHub-Org/matrix-sdk/commit/1e7119d))
 
 
 ### Features
 
-* **wrap:** create a 2D or 1D WrapperMatrix ([#52](https://github.com/mljs/matrix/issues/52)) ([7900d67](https://github.com/mljs/matrix/commit/7900d67))
-* add norm method ([#57](https://github.com/mljs/matrix/issues/57)) ([221391a](https://github.com/mljs/matrix/commit/221391a))
-* allows to select only rows or columns as view ([#51](https://github.com/mljs/matrix/issues/51)) ([46eb916](https://github.com/mljs/matrix/commit/46eb916))
+* **wrap:** create a 2D or 1D WrapperMatrix ([#52](https://github.com/MatrixHub-Org/matrix-sdk/issues/52)) ([7900d67](https://github.com/MatrixHub-Org/matrix-sdk/commit/7900d67))
+* add norm method ([#57](https://github.com/MatrixHub-Org/matrix-sdk/issues/57)) ([221391a](https://github.com/MatrixHub-Org/matrix-sdk/commit/221391a))
+* allows to select only rows or columns as view ([#51](https://github.com/MatrixHub-Org/matrix-sdk/issues/51)) ([46eb916](https://github.com/MatrixHub-Org/matrix-sdk/commit/46eb916))
 
 
 ### BREAKING CHANGES
@@ -516,79 +516,79 @@
 
 
 
-# [3.0.0](https://github.com/mljs/matrix/compare/v2.3.0...v3.0.0) (2017-04-25)
+# [3.0.0](https://github.com/MatrixHub-Org/matrix-sdk/compare/v2.3.0...v3.0.0) (2017-04-25)
 
 
 
-# [2.3.0](https://github.com/mljs/matrix/compare/v2.2.0...v2.3.0) (2017-02-28)
+# [2.3.0](https://github.com/MatrixHub-Org/matrix-sdk/compare/v2.2.0...v2.3.0) (2017-02-28)
 
 
 ### Features
 
-* add pseudoinverse function based on SVD ([3279a15](https://github.com/mljs/matrix/commit/3279a15))
+* add pseudoinverse function based on SVD ([3279a15](https://github.com/MatrixHub-Org/matrix-sdk/commit/3279a15))
 
 
 
-# [2.2.0](https://github.com/mljs/matrix/compare/v2.1.0...v2.2.0) (2016-12-14)
+# [2.2.0](https://github.com/MatrixHub-Org/matrix-sdk/compare/v2.1.0...v2.2.0) (2016-12-14)
 
 
 ### Bug Fixes
 
-* Matrix and Lu circular dependency ([ab706b9](https://github.com/mljs/matrix/commit/ab706b9))
-* styling issues picked up by Travis CI ([f211a1f](https://github.com/mljs/matrix/commit/f211a1f))
+* Matrix and Lu circular dependency ([ab706b9](https://github.com/MatrixHub-Org/matrix-sdk/commit/ab706b9))
+* styling issues picked up by Travis CI ([f211a1f](https://github.com/MatrixHub-Org/matrix-sdk/commit/f211a1f))
 
 
 ### Features
 
-* **det:** add 2x2 and 3x3 determinants ([04ae195](https://github.com/mljs/matrix/commit/04ae195))
-* **det:** add determinant based on LU decomposition ([90532ef](https://github.com/mljs/matrix/commit/90532ef))
-* **det:** add determinant synonym ([5395b56](https://github.com/mljs/matrix/commit/5395b56))
-* **sum:** sum by 'row' or 'column' ([bf5d070](https://github.com/mljs/matrix/commit/bf5d070))
+* **det:** add 2x2 and 3x3 determinants ([04ae195](https://github.com/MatrixHub-Org/matrix-sdk/commit/04ae195))
+* **det:** add determinant based on LU decomposition ([90532ef](https://github.com/MatrixHub-Org/matrix-sdk/commit/90532ef))
+* **det:** add determinant synonym ([5395b56](https://github.com/MatrixHub-Org/matrix-sdk/commit/5395b56))
+* **sum:** sum by 'row' or 'column' ([bf5d070](https://github.com/MatrixHub-Org/matrix-sdk/commit/bf5d070))
 
 
 
-# [2.1.0](https://github.com/mljs/matrix/compare/v2.0.0...v2.1.0) (2016-10-07)
+# [2.1.0](https://github.com/MatrixHub-Org/matrix-sdk/compare/v2.0.0...v2.1.0) (2016-10-07)
 
 
 ### Bug Fixes
 
-* use Symbol.species as Matrix constructor in selection ([fee325e](https://github.com/mljs/matrix/commit/fee325e))
-* use Symbol.species in evaluated static methods ([39800f9](https://github.com/mljs/matrix/commit/39800f9))
+* use Symbol.species as Matrix constructor in selection ([fee325e](https://github.com/MatrixHub-Org/matrix-sdk/commit/fee325e))
+* use Symbol.species in evaluated static methods ([39800f9](https://github.com/MatrixHub-Org/matrix-sdk/commit/39800f9))
 
 
 ### Features
 
-* add fast multiplication algorithm (strassen) ([fdc1c07](https://github.com/mljs/matrix/commit/fdc1c07))
-* add maxValue option to Matrix.randInt ([e5a8541](https://github.com/mljs/matrix/commit/e5a8541))
-* add value parameter to Matrix.eye ([f52e4fd](https://github.com/mljs/matrix/commit/f52e4fd)), closes [#43](https://github.com/mljs/matrix/issues/43)
-* implement optimized algorithm for 2x2 and 3x3 multiplication ([4055ef9](https://github.com/mljs/matrix/commit/4055ef9))
+* add fast multiplication algorithm (strassen) ([fdc1c07](https://github.com/MatrixHub-Org/matrix-sdk/commit/fdc1c07))
+* add maxValue option to Matrix.randInt ([e5a8541](https://github.com/MatrixHub-Org/matrix-sdk/commit/e5a8541))
+* add value parameter to Matrix.eye ([f52e4fd](https://github.com/MatrixHub-Org/matrix-sdk/commit/f52e4fd)), closes [#43](https://github.com/MatrixHub-Org/matrix-sdk/issues/43)
+* implement optimized algorithm for 2x2 and 3x3 multiplication ([4055ef9](https://github.com/MatrixHub-Org/matrix-sdk/commit/4055ef9))
 
 
 
-# [2.0.0](https://github.com/mljs/matrix/compare/v1.4.0...v2.0.0) (2016-08-04)
-
-
-### Features
-
-* add column view ([5ff6680](https://github.com/mljs/matrix/commit/5ff6680))
-* add flipColumn and flipRow views ([55ee4a6](https://github.com/mljs/matrix/commit/55ee4a6))
-* add method subMatrixView ([aa1df18](https://github.com/mljs/matrix/commit/aa1df18))
-* add row view ([a9e99f2](https://github.com/mljs/matrix/commit/a9e99f2))
-* add selection method and selection view ([59aa861](https://github.com/mljs/matrix/commit/59aa861))
-* make use of Symbol.species to allow creating new matrices in any class ([eaee5de](https://github.com/mljs/matrix/commit/eaee5de))
-
-
-
-# [1.4.0](https://github.com/mljs/matrix/compare/v1.3.0...v1.4.0) (2016-08-03)
+# [2.0.0](https://github.com/MatrixHub-Org/matrix-sdk/compare/v1.4.0...v2.0.0) (2016-08-04)
 
 
 ### Features
 
-* add concept of abstract matrix ([cbefc9b](https://github.com/mljs/matrix/commit/cbefc9b))
-* add method setSubMatrix ([89b4242](https://github.com/mljs/matrix/commit/89b4242))
-* add method with one argument template ([b66ee9f](https://github.com/mljs/matrix/commit/b66ee9f))
-* add repeat method ([8b9eecb](https://github.com/mljs/matrix/commit/8b9eecb))
-* add transposeView ([fb0a0c9](https://github.com/mljs/matrix/commit/fb0a0c9))
+* add column view ([5ff6680](https://github.com/MatrixHub-Org/matrix-sdk/commit/5ff6680))
+* add flipColumn and flipRow views ([55ee4a6](https://github.com/MatrixHub-Org/matrix-sdk/commit/55ee4a6))
+* add method subMatrixView ([aa1df18](https://github.com/MatrixHub-Org/matrix-sdk/commit/aa1df18))
+* add row view ([a9e99f2](https://github.com/MatrixHub-Org/matrix-sdk/commit/a9e99f2))
+* add selection method and selection view ([59aa861](https://github.com/MatrixHub-Org/matrix-sdk/commit/59aa861))
+* make use of Symbol.species to allow creating new matrices in any class ([eaee5de](https://github.com/MatrixHub-Org/matrix-sdk/commit/eaee5de))
+
+
+
+# [1.4.0](https://github.com/MatrixHub-Org/matrix-sdk/compare/v1.3.0...v1.4.0) (2016-08-03)
+
+
+### Features
+
+* add concept of abstract matrix ([cbefc9b](https://github.com/MatrixHub-Org/matrix-sdk/commit/cbefc9b))
+* add method setSubMatrix ([89b4242](https://github.com/MatrixHub-Org/matrix-sdk/commit/89b4242))
+* add method with one argument template ([b66ee9f](https://github.com/MatrixHub-Org/matrix-sdk/commit/b66ee9f))
+* add repeat method ([8b9eecb](https://github.com/MatrixHub-Org/matrix-sdk/commit/8b9eecb))
+* add transposeView ([fb0a0c9](https://github.com/MatrixHub-Org/matrix-sdk/commit/fb0a0c9))
 
 
 ### BREAKING CHANGES
@@ -598,103 +598,103 @@ There is no known backward incompatibility though.
 
 
 
-# [1.3.0](https://github.com/mljs/matrix/compare/v1.2.1...v1.3.0) (2016-07-25)
+# [1.3.0](https://github.com/MatrixHub-Org/matrix-sdk/compare/v1.2.1...v1.3.0) (2016-07-25)
 
 
 ### Features
 
-* add methods scaleRows and scaleColumns ([8516f83](https://github.com/mljs/matrix/commit/8516f83))
+* add methods scaleRows and scaleColumns ([8516f83](https://github.com/MatrixHub-Org/matrix-sdk/commit/8516f83))
 
 
 
-## [1.2.1](https://github.com/mljs/matrix/compare/v1.2.0...v1.2.1) (2016-07-07)
+## [1.2.1](https://github.com/MatrixHub-Org/matrix-sdk/compare/v1.2.0...v1.2.1) (2016-07-07)
 
 
 ### Bug Fixes
 
-* do not use rest parameters ([2c4502e](https://github.com/mljs/matrix/commit/2c4502e))
+* do not use rest parameters ([2c4502e](https://github.com/MatrixHub-Org/matrix-sdk/commit/2c4502e))
 
 
 
-# [1.2.0](https://github.com/mljs/matrix/compare/v1.1.5...v1.2.0) (2016-07-07)
+# [1.2.0](https://github.com/MatrixHub-Org/matrix-sdk/compare/v1.1.5...v1.2.0) (2016-07-07)
 
 
 ### Features
 
-* add support for Math.pow ([2524b73](https://github.com/mljs/matrix/commit/2524b73)), closes [#21](https://github.com/mljs/matrix/issues/21)
+* add support for Math.pow ([2524b73](https://github.com/MatrixHub-Org/matrix-sdk/commit/2524b73)), closes [#21](https://github.com/MatrixHub-Org/matrix-sdk/issues/21)
 
 
 
-## [1.1.5](https://github.com/mljs/matrix/compare/v1.1.4...v1.1.5) (2016-05-31)
+## [1.1.5](https://github.com/MatrixHub-Org/matrix-sdk/compare/v1.1.4...v1.1.5) (2016-05-31)
 
 
 
-## [1.1.4](https://github.com/mljs/matrix/compare/v1.1.3...v1.1.4) (2016-05-27)
+## [1.1.4](https://github.com/MatrixHub-Org/matrix-sdk/compare/v1.1.3...v1.1.4) (2016-05-27)
 
 
 
-## [1.1.3](https://github.com/mljs/matrix/compare/v1.1.2...v1.1.3) (2016-05-27)
+## [1.1.3](https://github.com/MatrixHub-Org/matrix-sdk/compare/v1.1.2...v1.1.3) (2016-05-27)
 
 
 
-## [1.1.2](https://github.com/mljs/matrix/compare/v1.1.1...v1.1.2) (2016-05-18)
+## [1.1.2](https://github.com/MatrixHub-Org/matrix-sdk/compare/v1.1.1...v1.1.2) (2016-05-18)
 
 
 
-## [1.1.1](https://github.com/mljs/matrix/compare/v1.1.0...v1.1.1) (2016-05-18)
+## [1.1.1](https://github.com/MatrixHub-Org/matrix-sdk/compare/v1.1.0...v1.1.1) (2016-05-18)
 
 
 
-# [1.1.0](https://github.com/mljs/matrix/compare/v1.0.4...v1.1.0) (2016-05-13)
+# [1.1.0](https://github.com/MatrixHub-Org/matrix-sdk/compare/v1.0.4...v1.1.0) (2016-05-13)
 
 
 
-## [1.0.4](https://github.com/mljs/matrix/compare/v1.0.3...v1.0.4) (2015-11-21)
+## [1.0.4](https://github.com/MatrixHub-Org/matrix-sdk/compare/v1.0.3...v1.0.4) (2015-11-21)
 
 
 
-## [1.0.3](https://github.com/mljs/matrix/compare/v1.0.2...v1.0.3) (2015-11-19)
-
-
-### Bug Fixes
-
-* random not correctly filling rectangular matrices ([a79c3eb](https://github.com/mljs/matrix/commit/a79c3eb))
-
-
-
-## [1.0.2](https://github.com/mljs/matrix/compare/v1.0.1...v1.0.2) (2015-10-05)
-
-
-
-## [1.0.1](https://github.com/mljs/matrix/compare/v1.0.0...v1.0.1) (2015-09-11)
-
-
-
-# [1.0.0](https://github.com/mljs/matrix/compare/v1.0.0-0...v1.0.0) (2015-09-10)
-
-
-
-# [1.0.0-0](https://github.com/mljs/matrix/compare/v0.1.0...v1.0.0-0) (2015-09-09)
+## [1.0.3](https://github.com/MatrixHub-Org/matrix-sdk/compare/v1.0.2...v1.0.3) (2015-11-19)
 
 
 ### Bug Fixes
 
-* **matrix:** abs method should return the instance ([cd96b4b](https://github.com/mljs/matrix/commit/cd96b4b))
+* random not correctly filling rectangular matrices ([a79c3eb](https://github.com/MatrixHub-Org/matrix-sdk/commit/a79c3eb))
+
+
+
+## [1.0.2](https://github.com/MatrixHub-Org/matrix-sdk/compare/v1.0.1...v1.0.2) (2015-10-05)
+
+
+
+## [1.0.1](https://github.com/MatrixHub-Org/matrix-sdk/compare/v1.0.0...v1.0.1) (2015-09-11)
+
+
+
+# [1.0.0](https://github.com/MatrixHub-Org/matrix-sdk/compare/v1.0.0-0...v1.0.0) (2015-09-10)
+
+
+
+# [1.0.0-0](https://github.com/MatrixHub-Org/matrix-sdk/compare/v0.1.0...v1.0.0-0) (2015-09-09)
+
+
+### Bug Fixes
+
+* **matrix:** abs method should return the instance ([cd96b4b](https://github.com/MatrixHub-Org/matrix-sdk/commit/cd96b4b))
 
 
 ### Features
 
-* add fullname synonyms for some methods ([4845a43](https://github.com/mljs/matrix/commit/4845a43))
-* add static min and max methods ([41707af](https://github.com/mljs/matrix/commit/41707af))
-* support all arithmetic operators and Math functions including static versions ([521e4fe](https://github.com/mljs/matrix/commit/521e4fe)), closes [#7](https://github.com/mljs/matrix/issues/7)
+* add fullname synonyms for some methods ([4845a43](https://github.com/MatrixHub-Org/matrix-sdk/commit/4845a43))
+* add static min and max methods ([41707af](https://github.com/MatrixHub-Org/matrix-sdk/commit/41707af))
+* support all arithmetic operators and Math functions including static versions ([521e4fe](https://github.com/MatrixHub-Org/matrix-sdk/commit/521e4fe)), closes [#7](https://github.com/MatrixHub-Org/matrix-sdk/issues/7)
 
 
 
-# [0.1.0](https://github.com/mljs/matrix/compare/v0.0.4...v0.1.0) (2015-06-11)
+# [0.1.0](https://github.com/MatrixHub-Org/matrix-sdk/compare/v0.0.4...v0.1.0) (2015-06-11)
 
 
 
-## [0.0.4](https://github.com/mljs/matrix/compare/v0.0.1...v0.0.4) (2015-06-11)
+## [0.0.4](https://github.com/MatrixHub-Org/matrix-sdk/compare/v0.0.1...v0.0.4) (2015-06-11)
 
 
 

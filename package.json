@@ -1,5 +1,5 @@
 {
-  "name": "ml-matrix",
+  "name": "matrixhub",
   "version": "6.15.0",
   "description": "Matrix manipulation and computation library",
   "main": "matrix.js",
@@ -37,7 +37,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mljs/matrix.git"
+    "url": "https://github.com/MatrixHub-Org/matrix-sdk.git"
   },
   "keywords": [
     "matrix",
@@ -56,12 +56,8 @@
     "machine",
     "learning"
   ],
-  "author": "Michaël Zasso",
+  "author": "hunterhicks18 <hunterhicks18@proton.me>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mljs/matrix/issues"
-  },
-  "homepage": "https://github.com/mljs/matrix",
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.27.1",
     "@rollup/plugin-commonjs": "^28.0.6",
@@ -83,8 +79,5 @@
     "rollup": "^4.44.0",
     "vitest": "^3.2.4"
   },
-  "dependencies": {
-    "is-any-array": "^3.0.0",
-    "ml-array-rescale": "^2.0.0"
-  }
+  "dependencies": {}
 }
