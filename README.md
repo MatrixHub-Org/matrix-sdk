@@ -2,8 +2,8 @@
 
 Zero-dependency matrix library for JavaScript. Create, transform, and decompose dense matrices in Node.js and the browser.
 
-[![npm](https://img.shields.io/npm/v/matrixhub.svg)](https://www.npmjs.com/package/matrixhub)
-[![license](https://img.shields.io/npm/l/matrixhub.svg)](./LICENSE)
+[![npm](https://img.shields.io/npm/v/matrixhub.svg?style=flat)](https://www.npmjs.com/package/matrixhub)
+[![license](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)
 
 ## Install
 
